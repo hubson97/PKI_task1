@@ -11,7 +11,7 @@ namespace PKI_task1
 
         static int Policz(int a, int b)
         {
-            return a + b;
+            return (a + b) - (a - b);
         }
     }
 }
